@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  margin: 20px;
+}
+
+.search-button {
+  margin-top: 10px;
+}
+
+.label-city {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
